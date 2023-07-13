@@ -1,7 +1,7 @@
-import express from 'express'
+import express from 'express';
 import configViewEngine from './configs/view_engine.js';
-import dotenv from 'dotenv/config'
-import initWebRoute from './routes/web.js'
+import dotenv from 'dotenv/config';
+import initWebRoute from './routes/web.js';
 
 const app = express()
 const port = process.env.PORT || 8000
