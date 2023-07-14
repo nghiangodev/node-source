@@ -1,8 +1,9 @@
-h1 {
-    color: red;
-    border: 1px solid green
-}
+@import 'https://fonts.googleapis.com/css?family=Mada:400,500';
+@import '_variables.css';
+@import 'components/menu.css';
 
-img {
-    width: 100%;
+body {
+    font-family: 'Mada', sans-serif;
+    margin: 220px 0px 50px;
+    background-color: var(--background-white-200);
 }
